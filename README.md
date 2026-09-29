@@ -1,6 +1,6 @@
 # Baidu for Map Making App
 
-A Tampermonkey userscript that adds Baidu Street View to [map-making.app](https://map-making.app), plus a standalone pin viewer.
+A Tampermonkey userscript that adds Baidu Street View to [map-making.app](https://map-making.app).
 
 ## Userscript: `map-making-baidu.user.js`
 
@@ -13,10 +13,6 @@ Install: open the raw file in Tampermonkey (or paste it into a new script), then
 - **Export** – "Export Baidu locations" downloads GeoGuessr-style Baidu JSON.
 
 The basemap is assumed to be Google's (GCJ02 in China). On the OSM basemap the coverage lines sit a few hundred metres off.
-
-## Standalone viewer: `map.html`
-
-Open in a browser. Upload GeoGuessr map JSON files (Google or Baidu style), paste Baidu share links, tag pins, filter by tag and export. Clicking a Baidu pin opens its panorama.
 
 ## How it works
 
